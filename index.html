@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wikimedia Design guide</title>
+    <link rel="stylesheet/less" type="text/css" href="style/style.less" />
+    <link rel="import" href="menu.html">
+    <script src="lib/jquery.js"></script>
+    <script src="lib/less.js"></script>
+    <script src="script/app.js"></script>
+  </head>
+  <body>
+      <h1>Wikimedia Design Guide</h1>
+      <p>Wikimedia is a global movement involving a wide audience. Having design guidelines is useful when designing products of any kind (from t-shirts to mobile applications).</p>
+      <p>This guide is intended to capture a general design direction that can be useful for different kinds of projects. Designers and developers will be provided with tools to solve general problems to let them focus on the specific needs of their projects.</p>
+      <p>This is an ongoing work, so it is in evolution. You can always check online <a href="http://pauginer.github.io/design-guide/">the latest released version of the guide</a>. You can help making it grow, see how to contribute below.</p>
+      <section>
+        <h2>How to contribute</h2>
+        <p>You can participate in many ways. The documentation is available in a git repository together with all the design assets you need for your project. You can get all of them, change anything and send the changes back.</p>
+        <h3>Getting the design repository</h3>
+        The <a href="https://github.com/pauginer/design-guide/">design repository is available to download</a>. It contains all the documentation, templates and design resources. Select the "clone or download" button to get the repository (if you have <a href="https://en.wikipedia.org/wiki/Git">Git</a> installed in your system, cloning is preferred since it allows to contribute back).
+        <h3>Viewing the documentation</h3>
+        <p>The guideline is based on a set of static HTML files for the different sections of the guideline. The menu is added to those pages automatically using Javascript.</p>
+        <p>Some browsers (such as Chrome) may prevent Javascript to load the table of contents on local files, in that case you'll need to host the files in a local server. Text editors such as <a href="http://brackets.io/">Brackets</a> or <a href="https://atom.io/">Atom</a> (the later with <a href="https://atom.io/packages/atom-live-server">an extension</a>) allow to view pages through a local server. For those with Python (<code>python -m SimpleHTTPServer</code>) </p>
+        <h3>Sending changes back</h3>
+        <p>Technically changes can be submitted as usual in git. In terms of coordinating the process we are still working on it&hellip;</p>
+        <p>In order to publish the updated contents to be available live, go to the repo and launch the following command from a terminal: <code>git push -f origin master:gh-pages</code></p>
+      </section>
+  </body>
+</html>
