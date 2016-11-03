@@ -23,7 +23,7 @@ function loadMenu(){ //loads the contents of menu.html
 
 function markCurrentSection(){
   var path = window.location.pathname.split("/");
-  var fileName = !!(path.length>1)?path[1]:"index.html";
+  var fileName = !!(path.length>1)?path[path.length - 1]:"index.html";
   var current = $(".toc a[href$='"+fileName+"']").parent("li");
   current.addClass("active");
   //Expand subsections
